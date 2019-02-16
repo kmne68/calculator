@@ -38,7 +38,7 @@ namespace Emery_Assignment2
             try
             {
                 haveValidOperand = IsOperandSelected();
-                // MessageBox.Show("is valid? " + haveValidOperand);
+                MessageBox.Show("is valid? " + haveValidOperand);
             }
             catch(Exception ex)
             {
@@ -151,7 +151,7 @@ namespace Emery_Assignment2
 
         private void clearForm()
         {
-
+            
         }
 
 
@@ -173,8 +173,6 @@ namespace Emery_Assignment2
             string result = "";
 
             result = (leftOperand + rightOperand).ToString();
-
-            Console.WriteLine("Addition = " + result);
 
             return result;
         }
